@@ -1,15 +1,13 @@
 # Curse downloads
 
-Public builds of Curse, Minecraft: Java Edition 26.3 written in Rust.
+Public downloads for Curse — Minecraft: Java Edition 26.3 in Rust.
 
-Each release holds what a player or a host needs:
+- `curse-launcher-*` — the launcher (Windows, Linux, macOS)
+- `curse-*` — the game build for each platform
+- `curse-server-*` — the dedicated server
+- `SHA256SUMS`, `SHA256SUMS.sig` — checksums and their signature
 
-- the launcher for Windows, Linux and macOS;
-- the game builds for Windows, Linux and macOS;
-- the server archive for Linux;
-- `SHA256SUMS` and its signature.
-
-The source is private. This repository publishes builds, not code.
+Releases are copied here from the private source repository by its release workflow.
+The source code is not here and is not public.
 
 - Site and documentation: https://curse-rusts.github.io
-- Verify a download: compare it with `SHA256SUMS` from the same release.
